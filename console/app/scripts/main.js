@@ -3,7 +3,8 @@ require.config({
   paths: {
     'angular': '../../bower_components/angular/angular',
     'angular-route': '../../bower_components/angular-route/angular-route',
-    'workbench1': '../../../workbench1/app/main'
+    'workbench1': '../../../workbench1/app/main',
+    'workbench2': '../../../workbench2/app/main'
   },
   shim: {
     'angular' : {'exports' : 'angular'},

@@ -3,6 +3,7 @@ define([
   'angular',
   'angular-route',
   'workbench1',
+  'workbench2',
   'controllers/main',
   'controllers/about',
   'controllers/myroute',
@@ -29,7 +30,8 @@ define([
     'demoApp.directives.MyDirective',
     'demoApp.services.MyService',
     'ngRoute',
-    'workbench1'
+    'workbench1',
+    'workbench2'
   ])
     .config(function ($routeProvider, $locationProvider) {
       $locationProvider.html5Mode(true);

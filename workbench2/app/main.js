@@ -1,10 +1,10 @@
 // define(['bower_components/componentName/file'])
 define([
   'angular',
-  '../../../workbench1/node_modules/cool-lib/cool-lib'
+  '../../../workbench2/node_modules/cool-lib/cool-lib'
 ], function(angular) {
 
-  const moduleName = 'workbench1'
+  const moduleName = 'workbench2'
 
   angular.module(moduleName, [
     // module conflicts go here
@@ -21,7 +21,6 @@ define([
   ])
   .directive('foo', function () {
     return {
-      template: '<div>yo</div>',
       restrict: 'E',
       link: function postLink(scope, element, attrs) {
         element.text('this is the foo directive');
